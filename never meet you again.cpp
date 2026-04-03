@@ -26,6 +26,7 @@ int main()
 	printf("\n*--------------------------------*");
 }
 /*
+		output:
 		enter the base salary: 100
 		enter the HRA: 10
 		enter the DA: 5
