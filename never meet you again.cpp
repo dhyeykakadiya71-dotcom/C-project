@@ -2,24 +2,26 @@
 
 int main()
 {
-	int basesalary, HRA, DA, TA;
+	float basesalary, grosssalary, HRA, DA, TA;
 	
 	
 	printf("enter the base salary: ");
-	scanf("%d", &basesalary);
+	scanf("%f", &basesalary);
 	
 	printf("enter the HRA: ");
-	scanf("%d", &HRA);
+	scanf("%f", &HRA);
 	
 	printf("enter the DA: ");
-	scanf("%d", &DA);
+	scanf("%f", &DA);
 	
 	printf("enter the TA: ");
-	scanf("%d", &TA);
+	scanf("%f", &TA);
+	
+	grosssalary=basesalary+HRA/100*basesalary+DA/100*basesalary+TA/100*basesalary;
 	
 	printf("\n*--------------------------------*");
 	printf("\n|                                |");
-	printf("\n|  Your Gross Salaru: %d        |", basesalary+HRA+DA+TA);
+	printf("\n|  Your Gross Salary: %.1f      |", grosssalary);
 	printf("\n|                                |");
 	printf("\n*--------------------------------*");
 }
@@ -31,7 +33,7 @@ int main()
 		
 		*--------------------------------*
 		|                                |
-		|  Your Gross Salaru: 123        |
+		|  Your Gross Salary: 123.0      |
 		|                                |
 		*--------------------------------*
 */
