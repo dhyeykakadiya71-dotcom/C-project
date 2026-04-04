@@ -7,6 +7,7 @@ int main()
 	const int total=180;
 
 	printf("\nYour third angel c: %d", total-(a+b));
+}
 /*
 		output:
 		Your third angel c: 70 
