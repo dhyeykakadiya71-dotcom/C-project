@@ -19,11 +19,7 @@ int main()
 	
 	grosssalary=basesalary+HRA/100*basesalary+DA/100*basesalary+TA/100*basesalary;
 	
-	printf("\n*--------------------------------*");
-	printf("\n|                                |");
-	printf("\n|  Your Gross Salary: %.1f      |", grosssalary);
-	printf("\n|                                |");
-	printf("\n*--------------------------------*");
+	printf("\nYour Gross Salary: %.1f", grosssalary);
 }
 /*
 		output:
@@ -31,10 +27,6 @@ int main()
 		enter the HRA: 10
 		enter the DA: 5
 		enter the TA: 8
-		
-		*--------------------------------*
-		|                                |
-		|  Your Gross Salary: 123.0      |
-		|                                |
-		*--------------------------------*
+
+		Your Gross Salary: 123.0
 */
